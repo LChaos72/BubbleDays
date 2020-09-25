@@ -3,7 +3,7 @@
 This software is designed in such a way that from the time you wake up each day and open your laptop, you will be given missions according to your interests. This will also include short breaks which always contain a surprise and a different one each time. These surprises focus on boosting morality and ethical values that one stands by. 
 
 ### Contributing Guidelines
-  * Find all issues regarding code as well as documentation in the [Issues](github.com/LChaos72/BubbleDays/Issues) section of the repository.
+  * Find all issues regarding code as well as documentation in the [Issues](BubbleDays/Issues) section of the repository.
   
   * Look for relevant tags to help you find the issue you can work on.
   
