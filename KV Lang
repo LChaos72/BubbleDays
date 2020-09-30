@@ -1,0 +1,25 @@
+KV Lang-kivy language for ui
+always name it with the name preceding the word app in the py file
+<rootwidget>eg myappdesign
+	id: main_win (not mandatory, use is to access these widgets in the python file ) 2 ways: 
+	under <rootname> we can write idinpython:idgiveninkivyfile
+	in python import objectproperty and write idinpython(can be same as that in python ) = ObjectProperty()(this assigns all property of the id given to root) and then type the function like self_title() and inside access it as self.id.whateveregtext
+	orientation: 'vertical'
+	Button:
+		id: submit 
+		text: 'Submit'
+		height: 30
+		size_hint_y: None (dynamic sizing acc to window)
+		on_release: (event) title.text = "clicked" or 
+		on_release: root.set_title() (and in python file create func called set_title() and inside self.ids.title(thisistheidname).text = "some" )
+	Label:
+		id:title
+		text: something
+#widget sizing: size_hint is how much % of the screen the widget takes up; size_hint_x=0.4 (40%) can also write as size_hint(x,y)
+default (1,1) ie takes up 100% of available width and height 
+size_hint is dynamic size and to override it and write a static size(constant size which doesnt change acc to other widgets) use None for size_hint. for static size use word size=(pixels_x(width),pixels_y(height))
+#widgetspacing- self.spacing = 10
+#padding - space between layout and widget self.padding(left,top,right,bottom)
+
+
+
